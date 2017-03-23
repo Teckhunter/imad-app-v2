@@ -1,7 +1,8 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
+    background-color: lime;
     margin-top: 75px;
+    padding-left: 30px;
 }
 
 .center {
