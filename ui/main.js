@@ -7,5 +7,5 @@ element.innerHTML = 'Voracious Reader';
 var imag = document.getElementById('madi');
 imag.onclick = function()
 {
-    img.style.marginleft = '20px';
+    imag.style.marginleft = '20px';
 };
