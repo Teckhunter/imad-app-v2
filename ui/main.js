@@ -1,18 +1,10 @@
-console.log('Loaded!');
+//Counter
 
-
-var element=document.getElementById('main-text');
-element.innerHTML = 'Voracious Reader';
-
-var imag = document.getElementById('madi');
-function moveRight()
+var button = document.getElementById('counter');
+button.onclick = function()
 {
-    marginleft = marginleft+10;
-    img.style.marginLeft = marginLeft + 'px';
+    counter= counter+1;
+    var span = document.getElementById('count');
+    span.innerHTML=counter.toString();
+    
 }
-
-imag.onclick = function()
-{
-    var interval = setInterval(moveRight,100);
-    img.style.marginRight = '200px';
-};
