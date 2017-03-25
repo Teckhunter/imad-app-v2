@@ -25,7 +25,7 @@ button.onclick = function()
     
 };
 //make the request
-request.open('GET','http://teckunter.imad.hasura-app.io',true);
+request.open('GET','http://teckhunter.imad.hasura-app.io/',true);
 request.send(null);
 //render variable in correct span
 
